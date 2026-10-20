@@ -1,0 +1,34 @@
+.main-header {
+    background: #16382A;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .main-header {
+        display: block;
+        text-align: center;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+}

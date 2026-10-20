@@ -1,10 +1,9 @@
+import Header from "./parts/header"
+
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <p>I love coding!</p>
-    </div>
+    <Header/>
   );
 }
 

@@ -1,0 +1,21 @@
+.main-nav {
+    display: flex;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .main-nav {
+        flex-direction: column;
+    }
+
+    .main-nav a {
+        margin: 5px;
+    }
+}
