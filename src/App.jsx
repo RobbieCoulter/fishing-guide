@@ -1,14 +1,15 @@
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./components/header/header";
+import Home from "./pages/home";
+import Footer from "./components/footer/footer";
 
-
-function App() {
-  return (
-    <>
-      <Header />
-      <footer />
-    </>
-  );
-}
+const App = () => {
+    return (
+        <>
+            <Header />
+            <Home />
+            <Footer />
+        </>
+    )
+};
 
 export default App;
