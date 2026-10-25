@@ -1,0 +1,41 @@
+#hero {
+    height: 430px;
+    background-image: url("#");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-text {
+    color: white;
+    text-align: center;
+}
+
+#hero-text p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#hero-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#hero-text h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    #hero {
+        height: 350px;
+    }
+
+    #hero-text h1 {
+        font-size: 30px;
+    }
+}
