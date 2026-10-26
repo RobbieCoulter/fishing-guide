@@ -28,6 +28,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 950px;
+    margin: auto;
     gap: 25px;
     padding: 40px 20px;
 }
