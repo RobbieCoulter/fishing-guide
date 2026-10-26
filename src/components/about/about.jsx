@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section id="about">
             <div id="about-picture">
-                <img src="/images/homepage/about.jpg" alt="Lowcountry waterway" />
+                <img src={`${import.meta.env.BASE_URL}images/homepage/about.jpg`} alt="Lowcountry waterway" />
 
                 <div id="about-text">
                     <h2>WHY FISH SOUTH CAROLINA?</h2>

@@ -1,0 +1,43 @@
+#locations-hero {
+    background-image: url("/images/locations/locohero.png");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations-hero h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#locations {
+    padding: 40px 20px;
+}
+
+#locations h2 {
+    color: #16382A;
+    font-size: 28px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.locations-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 700px) {
+    #locations-hero h1 {
+        font-size: 28px;
+    }
+
+    #locations {
+        padding: 20px 10px;
+    }
+}

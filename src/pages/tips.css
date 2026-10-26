@@ -1,0 +1,57 @@
+#tips-hero {
+    background-image: url("/images/tips/tipshero.png");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tips-hero-text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#tips-hero-text h1 {
+    font-size: 40px;
+}
+
+#tips-hero-text p {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+#tips {
+    padding: 40px 20px;
+}
+
+#tips h2 {
+    color: #16382A;
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+.tips-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 700px) {
+    #tips-hero-text h1 {
+        font-size: 28px;
+    }
+
+    #tips-hero-text p {
+        font-size: 15px;
+    }
+
+    #tips {
+        padding: 20px 10px;
+    }
+}

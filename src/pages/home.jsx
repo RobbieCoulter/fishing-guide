@@ -1,4 +1,4 @@
-import HomeHero from "../components/heros/homehero";
+import HomeHero from "../components/heros/homehero/homehero";
 import Explore from "../components/explore/explore";
 import About from "../components/about/about";
 

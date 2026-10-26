@@ -1,0 +1,42 @@
+#species-hero {
+    background-image: url("/images/species/specieshero.png");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#species-hero-text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#species-hero-text h1 {
+    font-size: 40px;
+}
+
+#species-hero-text p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+#species-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 25px;
+}
+
+@media (max-width: 700px) {
+    #species-hero-text h1 {
+        font-size: 28px;
+    }
+
+    #species-hero-text p {
+        font-size: 15px;
+    }
+}

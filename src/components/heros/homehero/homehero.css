@@ -1,6 +1,6 @@
 #hero {
-    height: 430px;
-    background-image: url("#");
+    height: 430px;   
+    background-image: url("/images/homepage/hero.png");
     background-size: cover;
     background-position: center;
     display: flex;
