@@ -5,6 +5,7 @@ import Species from "./pages/species";
 import Gear from "./pages/gear";
 import Locations from "./pages/locations";
 import Tips from "./pages/tips";
+import Contact from "./pages/contact";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path="gear" element={<Gear />} />
                     <Route path="locations" element={<Locations />} />
                     <Route path="tips" element={<Tips />} />
+                    <Route path="contact" element={<Contact />} />
                 </Route>
             </Routes>
         </HashRouter>

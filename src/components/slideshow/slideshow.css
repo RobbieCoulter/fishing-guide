@@ -1,0 +1,45 @@
+#slideshow {
+    background: #F5F1E8;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#slideshow h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#slide img {
+    width: 70%;
+    max-width: 650px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#slide button {
+    background: #16382A;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    #slide img {
+        width: 75%;
+        height: 200px;
+    }
+
+    #slide button {
+        padding: 8px;
+    }
+}

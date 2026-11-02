@@ -1,6 +1,7 @@
 import "./gear.css";
 import GearCard from "../components/gearcard/gearcard";
 
+
 const Gear = () => {
     return (
         <div id="gear" className="page">
